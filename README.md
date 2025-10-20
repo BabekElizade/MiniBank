@@ -1,5 +1,5 @@
 🏦 Mini Bank System (C++)
-
+-------------------------------------------------------------------------------
 A simple console-based banking system written in C++, where you can log in, check balance, deposit or withdraw money, and even change your username or password.
 All data (username, password, balance) is automatically saved in demo.txt. 💾
 
