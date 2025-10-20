@@ -1,63 +1,27 @@
-🏦 Mini Bank Management System (C++)
-📌 About
+🏦 Mini Bank System (C++)
 
-This is a simple C++ console-based Bank Management System created by Babək Elizade.
-It allows the user to:
+A simple console-based banking system written in C++, where you can log in, check balance, deposit or withdraw money, and even change your username or password.
+All data (username, password, balance) is automatically saved in demo.txt. 💾
 
-Log in with a username and password
+✨ Features
 
-View account balance
+🔐 Secure login (3 attempts)
 
-Deposit or withdraw money
+🔢 Random 4-digit PIN for money operations
 
-Automatically save and load balance from a text file
+💰 Deposit & withdraw money
 
-All your balance data is stored in demo.txt — so even if you restart the program, your money is safe 💾💰
+👤 Change username or password
 
--------------------------------------------------------------------------------------------------------------
-⚙️ Features
+📁 Auto-save to demo.txt
 
-✅ Secure login system (with limited attempts)
+EXAMPLE
+------------------------------------------------------------------------------
+Enter Username: babek
 
-✅ View your current balance
+Enter Password: 2525
 
-✅ Deposit money to your account
-
-✅ Withdraw money (with balance check)
-
-✅ Save and restore balance automatically
-
-✅ Fully console-based — simple and clean interface
--------------------------------------------------------------------------------------------------------------
-Login:
-
-Username: babekelizade  
-
-Password: babek2008
--------------------------------------------------------------------------------------------------------------
-🚀 Future Improvements
-
-Add user registration system
-
-Encrypt password for better security
-
-Use classes for better structure (OOP)
-
-Add multi-user support
-
--------------------------------------------------------------------------------------------------------------
-Example Result:
--------------------------------------------------------------------------------------------------------------
-Enter Username: babekelizade
-
-Enter Password: babek2008
-
-Hello, babekelizade
-
-------------------------------------
-Launch Program...
-
-0 - Exit Program
+Hello, babek
 
 1 - Show My Balance
 
@@ -65,18 +29,7 @@ Launch Program...
 
 3 - Input Money
 
-Choose a operation: 1
+4 - Info
 
-Your Balance: 120$
-
-Choose a operation: 2
-
-Please, Enter Money Amount: 20
-
-Money extracted successfully! Your new balance: 100$
-
-Choose a operation: 0
-
-Saved Your Money. Goodbye...
-
+5 - Change Your Info
 
